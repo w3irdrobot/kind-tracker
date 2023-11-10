@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "kind-tracker"
+version = "0.1.0"
+
+[dependencies]
+env_logger = "0.10.0"
+log = "0.4.20"
+nostr-sdk = "0.25.0"
+tokio = { version = "1.33.0", features = ["macros", "rt-multi-thread", "time"] }
